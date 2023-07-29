@@ -19,6 +19,14 @@ let numero; //integer/string
 let complemento; //string
 let bairro; //string
 
+if (logradouro != true) {
+    console.log("informe um endereço..");
+}
+
 //Contato
 let email; //string
 let telefone; //string/number
+
+if (email != true) {
+    console.log("informe um email..");
+}
